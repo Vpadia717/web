@@ -1,0 +1,18 @@
+[
+  {"epoch":1,"train_loss":0.7495,"val_loss":0.6787,"val_accuracy":0.5625,"val_auc":0.8007},
+  {"epoch":2,"train_loss":0.6575,"val_loss":0.6025,"val_accuracy":0.8203,"val_auc":0.8953},
+  {"epoch":3,"train_loss":0.5551,"val_loss":0.4691,"val_accuracy":0.8438,"val_auc":0.9404},
+  {"epoch":4,"train_loss":0.4100,"val_loss":0.3253,"val_accuracy":0.8906,"val_auc":0.9611},
+  {"epoch":5,"train_loss":0.3029,"val_loss":0.2473,"val_accuracy":0.9141,"val_auc":0.9729},
+  {"epoch":6,"train_loss":0.2242,"val_loss":0.2200,"val_accuracy":0.9141,"val_auc":0.9796},
+  {"epoch":7,"train_loss":0.1851,"val_loss":0.1805,"val_accuracy":0.9531,"val_auc":0.9830},
+  {"epoch":8,"train_loss":0.1608,"val_loss":0.1938,"val_accuracy":0.9297,"val_auc":0.9867},
+  {"epoch":9,"train_loss":0.1327,"val_loss":0.1580,"val_accuracy":0.9453,"val_auc":0.9867},
+  {"epoch":10,"train_loss":0.1200,"val_loss":0.1515,"val_accuracy":0.9453,"val_auc":0.9869},
+  {"epoch":11,"train_loss":0.1090,"val_loss":0.1512,"val_accuracy":0.9609,"val_auc":0.9857},
+  {"epoch":12,"train_loss":0.0934,"val_loss":0.1518,"val_accuracy":0.9531,"val_auc":0.9847},
+  {"epoch":13,"train_loss":0.0839,"val_loss":0.1572,"val_accuracy":0.9531,"val_auc":0.9833},
+  {"epoch":14,"train_loss":0.0833,"val_loss":0.1737,"val_accuracy":0.9531,"val_auc":0.9810},
+  {"epoch":15,"train_loss":0.0786,"val_loss":0.1721,"val_accuracy":0.9453,"val_auc":0.9813},
+  {"epoch":16,"train_loss":0.0783,"val_loss":0.1700,"val_accuracy":0.9609,"val_auc":0.9798}
+]

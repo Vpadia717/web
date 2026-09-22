@@ -1,0 +1,8 @@
+[
+  {"model":"Wearable-only","accuracy":0.7688,"f1":0.7784,"roc_auc":0.8651,"avg_precision":0.9003},
+  {"model":"Molecular-only","accuracy":0.6875,"f1":0.6795,"roc_auc":0.7888,"avg_precision":0.8266},
+  {"model":"Clinical-only","accuracy":0.6375,"f1":0.6548,"roc_auc":0.7069,"avg_precision":0.7820},
+  {"model":"Wearable+Molecular","accuracy":0.8125,"f1":0.8256,"roc_auc":0.8610,"avg_precision":0.8932},
+  {"model":"All-tabular-logistic","accuracy":0.7688,"f1":0.7702,"roc_auc":0.8763,"avg_precision":0.8954},
+  {"model":"Multimodal Attention + GRU","accuracy":0.9313,"f1":0.9379,"roc_auc":0.9784,"avg_precision":0.9807}
+]

@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.93125,
+  "f1": 0.9379,
+  "roc_auc": 0.9784,
+  "average_precision": 0.9807,
+  "brier_score": 0.0556,
+  "early_detection_rate": 0.034,
+  "mean_lead_time_weeks": -4.78,
+  "selected_threshold": 0.57,
+  "target_band": [0.85, 0.94]
+}
