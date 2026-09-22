@@ -1,0 +1,50 @@
+{
+  "wearable": [
+    {"name":"hrv_rmssd","label":"HRV RMSSD","desc":"Root mean square of successive differences in heartbeat intervals","icon":"💓"},
+    {"name":"hrv_sdnn","label":"HRV SDNN","desc":"Standard deviation of NN intervals","icon":"💓"},
+    {"name":"resting_hr","label":"Resting HR","desc":"Resting heart rate (bpm)","icon":"❤️"},
+    {"name":"activity_steps","label":"Steps","desc":"Daily step count from accelerometer","icon":"🚶"},
+    {"name":"activity_active_minutes","label":"Active Min","desc":"Minutes of moderate-to-vigorous activity","icon":"🏃"},
+    {"name":"sleep_duration","label":"Sleep Duration","desc":"Total sleep time (hours)","icon":"🌙"},
+    {"name":"sleep_efficiency","label":"Sleep Efficiency","desc":"Ratio of time asleep to time in bed","icon":"😴"},
+    {"name":"sleep_fragmentation","label":"Sleep Fragmentation","desc":"Number of awakenings per hour","icon":"⚡"},
+    {"name":"sleep_deep_fraction","label":"Deep Sleep %","desc":"Fraction of deep (N3) sleep","icon":"🌊"},
+    {"name":"sleep_regularity","label":"Sleep Regularity","desc":"Consistency of sleep-wake timing","icon":"🕐"},
+    {"name":"cgm_mean","label":"CGM Mean","desc":"Average continuous glucose level","icon":"🩸"},
+    {"name":"cgm_variability","label":"CGM Variability","desc":"Glucose variability (CV)","icon":"📊"},
+    {"name":"cgm_time_in_range","label":"CGM Time-in-Range","desc":"% time glucose is 70-180 mg/dL","icon":"🎯"},
+    {"name":"cgm_fasting_proxy","label":"Fasting Glucose","desc":"Proxy for fasting glucose level","icon":"🔬"},
+    {"name":"respiratory_rate","label":"Respiratory Rate","desc":"Breaths per minute","icon":"🫁"},
+    {"name":"skin_temperature","label":"Skin Temp","desc":"Peripheral skin temperature","icon":"🌡️"}
+  ],
+  "molecular": [
+    {"name":"proteomic_antiaging","label":"Anti-Aging Proteins","desc":"Protective proteomic panel score","icon":"🧬"},
+    {"name":"proteomic_stress","label":"Stress Proteins","desc":"Cellular stress response markers","icon":"⚠️"},
+    {"name":"proteomic_metabolic","label":"Metabolic Proteins","desc":"Metabolic pathway activity","icon":"⚙️"},
+    {"name":"proteomic_inflammation","label":"Inflammatory Proteins","desc":"Pro-inflammatory cytokine markers","icon":"🔥"},
+    {"name":"proteomic_repair","label":"Repair Proteins","desc":"DNA/tissue repair capacity","icon":"🔧"},
+    {"name":"proteomic_mtor","label":"mTOR Pathway","desc":"mTOR signaling activity level","icon":"🎛️"},
+    {"name":"metabolite_nad_proxy","label":"NAD+ Proxy","desc":"Nicotinamide adenine dinucleotide level","icon":"⚡"},
+    {"name":"metabolite_lipid_proxy","label":"Lipid Profile","desc":"Metabolomic lipid panel score","icon":"🫧"},
+    {"name":"metabolite_glucose_proxy","label":"Glucose Metabolism","desc":"Metabolomic glucose processing","icon":"🍬"},
+    {"name":"metabolite_mitochondrial","label":"Mitochondrial","desc":"Mitochondrial function markers","icon":"🔋"},
+    {"name":"metabolite_oxidative","label":"Oxidative Markers","desc":"Oxidative metabolism products","icon":"💨"},
+    {"name":"metabolite_energy","label":"Energy Metabolism","desc":"Cellular energy production","icon":"⚡"},
+    {"name":"crp_proxy","label":"CRP","desc":"C-reactive protein (inflammation)","icon":"🩸"},
+    {"name":"il6_proxy","label":"IL-6","desc":"Interleukin-6 inflammatory cytokine","icon":"🧪"},
+    {"name":"tnfa_proxy","label":"TNF-α","desc":"Tumor necrosis factor alpha","icon":"🧪"},
+    {"name":"inflammaging_index","label":"Inflammaging","desc":"Chronic age-related inflammation score","icon":"🔥"},
+    {"name":"senescence_index","label":"Senescence","desc":"Cellular senescence burden","icon":"⏳"},
+    {"name":"oxidative_stress_index","label":"Oxidative Stress","desc":"Systemic oxidative damage","icon":"💥"}
+  ],
+  "clinical": [
+    {"name":"blood_pressure_proxy","label":"Blood Pressure","desc":"Systolic/diastolic composite","icon":"🫀"},
+    {"name":"body_composition_proxy","label":"Body Composition","desc":"Lean mass / fat ratio","icon":"⚖️"},
+    {"name":"grip_proxy","label":"Grip Strength","desc":"Handgrip dynamometry (kg)","icon":"✊"},
+    {"name":"cognitive_proxy","label":"Cognitive Score","desc":"Composite neurocognitive assessment","icon":"🧠"},
+    {"name":"frailty_proxy","label":"Frailty Index","desc":"Multi-domain frailty score","icon":"🦴"},
+    {"name":"fasting_marker_proxy","label":"Fasting Markers","desc":"Fasting metabolic panel","icon":"🩺"},
+    {"name":"sleep_questionnaire_proxy","label":"Sleep Quality","desc":"Subjective sleep assessment","icon":"📝"},
+    {"name":"functional_status_proxy","label":"Functional Status","desc":"Activities of daily living score","icon":"🏠"}
+  ]
+}

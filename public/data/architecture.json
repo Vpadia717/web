@@ -1,0 +1,25 @@
+{
+  "pipeline_stages": [
+    {"id":"input_wearable","label":"Wearable Sensors","desc":"HRV · Activity · Sleep · CGM","features":16,"color":"#3B82F6"},
+    {"id":"input_molecular","label":"Molecular Biomarkers","desc":"Proteomic · Metabolomic · Inflammatory","features":18,"color":"#10B981"},
+    {"id":"input_clinical","label":"Clinical Assessment","desc":"Physiology · Function · Context","features":8,"color":"#F59E0B"},
+    {"id":"encoder","label":"Modality Encoders","desc":"Linear → LayerNorm → GELU (×3)","features":32,"color":"#8B5CF6"},
+    {"id":"attention","label":"Cross-Modality Attention","desc":"4-head multi-head attention","features":32,"color":"#EC4899"},
+    {"id":"temporal","label":"Temporal GRU","desc":"Bidirectional GRU (12 timepoints)","features":64,"color":"#6366F1"},
+    {"id":"response","label":"Response Prediction","desc":"Binary classification head","features":1,"color":"#EF4444"},
+    {"id":"bioage","label":"Bio-Age Delta","desc":"Biological age change prediction","features":1,"color":"#F97316"},
+    {"id":"resilience","label":"Resilience Score","desc":"Physiological resilience estimation","features":1,"color":"#14B8A6"},
+    {"id":"healthspan","label":"Healthspan Score","desc":"Healthy lifespan probability","features":1,"color":"#A855F7"}
+  ],
+  "connections": [
+    ["input_wearable","encoder"],
+    ["input_molecular","encoder"],
+    ["input_clinical","encoder"],
+    ["encoder","attention"],
+    ["attention","temporal"],
+    ["temporal","response"],
+    ["temporal","bioage"],
+    ["temporal","resilience"],
+    ["temporal","healthspan"]
+  ]
+}
