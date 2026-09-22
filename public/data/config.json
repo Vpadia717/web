@@ -1,0 +1,20 @@
+{
+  "n_subjects_demo": 800,
+  "n_timepoints": 12,
+  "wearable_dim": 16,
+  "molecular_dim": 18,
+  "clinical_dim": 8,
+  "embedding_dim": 32,
+  "attention_heads": 4,
+  "dropout": 0.15,
+  "test_size": 0.20,
+  "validation_size": 0.20,
+  "batch_size": 64,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0005,
+  "patience": 6,
+  "early_weeks": 4,
+  "architecture": "3 modality encoders → 4-head cross-modality attention → bidirectional GRU → 4 output heads",
+  "intervention_arms": ["Control", "Senolytic", "NAD+ precursor", "mTOR inhibitor", "Combination"]
+}
